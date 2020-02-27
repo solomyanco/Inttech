@@ -1,0 +1,7 @@
+body{background-color: wheat; font-family: Arial, Helvetica, sans-serif; font-size: large;}
+.first{text-align: center; font-weight: 600;}
+.sec{text-align: left; font-variant: small-caps; color: red;}
+a:link{text-decoration: none; color: black;}
+a:visited{text-decoration: none; color: navy;}
+a:hover{text-decoration: underline; color: green;}
+a:active{color: crimson;}
