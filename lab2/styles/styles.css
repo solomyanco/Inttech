@@ -1,0 +1,7 @@
+body{font-family: 'Times New Roman', Times, serif; font-size: 14pt;}
+.a1{padding: 2cm; text-align: justify;}
+.a2{text-align: center; font-variant: small-caps;}
+.a3{width: fit-content; height: fit-content; background-color: lightgray; padding: 20px; 
+    border-radius: 30px; border: solid 5px darkblue;
+    padding-left: 3cm; padding-top: 2cm; padding-right: 1cm; padding-bottom: 2cm;}
+.a4::first-letter{font-size: 18pt; color: red;}
