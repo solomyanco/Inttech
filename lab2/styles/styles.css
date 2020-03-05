@@ -1,7 +1,41 @@
 body{font-family: 'Times New Roman', Times, serif; font-size: 14pt;}
+
 .a1{padding: 2cm; text-align: justify;}
+
 .a2{text-align: center; font-variant: small-caps;}
-.a3{width: fit-content; height: fit-content; background-color: lightgray; padding: 20px; 
+
+.a3{background: -webkit-radial-gradient(top, rgb(140, 199, 255), rgb(201, 255, 157));
     border-radius: 30px; border: solid 5px darkblue;
     padding-left: 3cm; padding-top: 2cm; padding-right: 1cm; padding-bottom: 2cm;}
-.a4::first-letter{font-size: 18pt; color: red;}
+
+.a4::first-letter{font-size: 18pt; color: red; margin-left: 1.5cm;}
+table{
+    border: 2px solid purple;
+    border-collapse: collapse;
+}
+caption{
+    text-align: center;
+    caption-side: top;
+    font-size: 18pt;
+}
+th, td{border: 2px solid navy;}
+table td:first-child{text-align: justify;}
+table td:nth-child(2){text-align: center;}
+table td:nth-child(2n-1){background-color: palegreen;}
+img{
+    height: 220px;
+    float: left;
+    margin: 4px 30px 0px 0px;
+}
+.img1{
+        position: relative;
+    animation-name: img;
+    animation-duration: 3s;
+
+}
+@keyframes img {
+0%{left: 0px; top: 0px;}
+40%{transform: rotate(125 deg);}
+80%{transform: rotate(275 deg);}
+100%{transform: rotate(0 deg);}
+}
