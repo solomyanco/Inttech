@@ -22,20 +22,26 @@ th, td{border: 2px solid navy;}
 table td:first-child{text-align: justify;}
 table td:nth-child(2){text-align: center;}
 table td:nth-child(2n-1){background-color: palegreen;}
-img{
+
+.img1{
     height: 220px;
     float: left;
     margin: 4px 30px 0px 0px;
-}
-.img1{
-        position: relative;
+
+    position: relative;
     animation-name: img;
-    animation-duration: 3s;
+    animation-duration: 10s;
 
 }
 @keyframes img {
-0%{left: 0px; top: 0px;}
-40%{transform: rotate(125 deg);}
-80%{transform: rotate(275 deg);}
-100%{transform: rotate(0 deg);}
+0%{left: -2500px; top: 0px;}
+20%{transform: translate(-400px, 0px);}
+/*40%{transform: translate(-75px, 0px);}
+60%{transform: translate(-50px, 0px);}
+80%{transform: translate(-25px, 0px);}
+100%{transform: translate(-5px, 0px);}
+/*25%{transform: rotate(90deg);}
+50%{transform: rotate(180deg);}
+75%{transform: rotate(270deg);}
+100%{transform: rotate(360deg);}*/
 }
