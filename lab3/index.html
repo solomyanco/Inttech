@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+        <title>Lab3</title>
+    
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    </head>
+    <body>
+        <form action="reway.html" method="POST">
+            <h1>Регистрация</h1>
+            <fieldset><legend>Личные данные</legend>
+            <p>Введите имя: <input name="name" type="text"></p>
+            <p>Введите фамилию: <input name="surname" type="text"></p>
+            <p>Выберите ваш пол: Муж<input name="gender" type="radio"> Жен<input name="gender" type="radio"></p>
+            <p>Дата рождения: <input name="date" type="month"></p>
+            </fieldset>
+            <fieldset><legend>Информация</legend>
+            <p>Семейное положение: <select><option>Не выбрано</option><option>Женат/Замужем</option><option>Холост/Не замужем</option></select></p>
+            <p>Немного о себе: <textarea name="bio" id="53" cols="25" rows="7"></textarea></p>
+            </fieldset>
+            <fieldset><legend>Авторизация</legend>
+            <p>E-mail: <input name="email" type="email" size="25"></p>
+            <p>Пароль: <input name="pass" type="password"></p>
+            <p>Телефон: <input name="tel" type="tel"></p>
+            </fieldset>
+            <p><button name="reset" type="reset" value="Очистить">Очистить</button> <input name="submit" type="submit" value="Зарегистрироваться"></p>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+form{
+    margin: auto; text-align: center;
+    background: -webkit-radial-gradient(bottom, rgb(250, 94, 32), rgb(16, 50, 240));
+    padding: 2cm; width: 40%; 
+    font-family: sans-serif; font-size: 14pt; color: khaki;
+}
